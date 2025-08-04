@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+aiomysql
+pydantic
+pydantic-settings
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+httpx
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+alembic
+apscheduler

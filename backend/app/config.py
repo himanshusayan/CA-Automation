@@ -1,5 +1,4 @@
 from pydantic_settings import BaseSettings
-from typing import Optional
 
 class Settings(BaseSettings):
     # Database Configuration
@@ -14,10 +13,10 @@ class Settings(BaseSettings):
     GMAIL_TOKEN_PATH: str = "token.json"
     
     # Perplexity AI Configuration
-    PERPLEXITY_API_KEY: str
+    PERPLEXITY_API_KEY: str = "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"
     
     # Application Configuration
-    SECRET_KEY: str
+    SECRET_KEY: str = "yt5A1iWwnFQf-mdvTdpeO9dZdkEZX5zE2f1_0sCW16A"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     DEBUG: bool = False
@@ -28,7 +27,7 @@ class Settings(BaseSettings):
     MAX_RETRY_ATTEMPTS: int = 3
     
     # File Storage Configuration
-    STORAGE_BASE_PATH: str
+    STORAGE_BASE_PATH: str = r"C:\Users\MAYANK PATEL\OneDrive\Desktop\Gmail-Automation"
     GST_ROOT_FOLDER: str = "Gmail_Automation"
     
     # Logging Configuration
